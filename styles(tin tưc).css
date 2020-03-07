@@ -9,13 +9,13 @@ and open the template in the editor.
 */
 body{
     width: 960px;
-    height: 1000px;
+    height: auto;
     background-color: darkgray;
     margin: 0 auto;
 }
 #wrapper{
     width: 100%;
-    height: 1000px;
+    height: auto;
     position: relative;
 }
 header{
@@ -31,25 +31,24 @@ nav{
 }
 #main-content{
     width: 100%;
-    height: 500px;
+    height: auto;
     background-color: #ffffff;
 }
 footer{
     width: 100%;
     height: 120px;
-    background-color: #848484;
+    background-color: #D8D8D8;
     
 }
 article{
     width: 70%;
-    height: 500px; 
+    height: auto; 
     float: left;
     border: 1px solid blue;
-    
 }
 aside{
     width: 29%;
-    height: 500px;
+    height: auto;
     border: 1px solid blue;
     float: left;
 }
@@ -59,7 +58,7 @@ aside{
     margin: 0;
 }
 #menu > ul{
-    background-color: gray;
+    background-color: #2E2E2E;
     list-style-type: none;
     text-align: center;
     padding: 0;
@@ -115,7 +114,7 @@ aside{
     line-height: 30px;
     background: url(images/bullet_red.png) no-repeat 1px;
     padding: 5px 5px 6px 40px;
-    color: red;
+    color: black;
 }
 .vmenu a:hover{
     background: url(images/bullet_yellow.png) no-repeat 1px;
@@ -132,11 +131,10 @@ aside{
     padding-bottom: 5px;
 }
 .product{
-     border-radius: 15px;
-    border: 2px solid blue;
+    border-radius: 15px;
+    border: 2px solid #0B2F3A;
     
 }
-
 .product >.image{
     height: 200px;
     line-height: 10px;
@@ -154,8 +152,9 @@ aside{
     font-weight: bold;
     color: orange;
     position: absolute;
-    left: 10px;
-    top: 180px;
+    left: 15px;
+    top: 200px;
+    color:green
 }
 .product >.icons{
     width: 25px;
@@ -178,7 +177,6 @@ aside{
     right: 0;
     border-bottom-left-radius: 30px;
 }
-
 .company-infor ul{
     list-style-type: none;
     padding: 0;
@@ -196,55 +194,12 @@ aside{
     font-size: 16px;
     font-weight: bold;
 }
+.company-infor a:hover{color: yellow}
 .infor{
-    border: 2px solid black;
-    width: 100%;
-    height:auto;
-    padding: 0;
-    margin: 0;    
-}
-.infor-mana{
-    width:96%;
-    height:480px;
-    border:1px solid gray;
-    box-shadow: 5px 2px gainsboro;
-    margin: 5px 10px;
-    border-radius:10px;
-    float:left;
-    padding: 1px;
-    background-color: #F5DA81
-        
-}
-.infor-mana img{
-    width:200px;
-    height:240px;
-    float:left;
-    margin: 0;
-    padding: 1px;
-    border-radius: 10px
-        
-}
-.infor-text{
-    width:55%;
-    height:80px;
-    float: left;
-    display: block;
-    
-        
-}
-.infor-manana{
-    width:63%;
-    height:487px;
-    border:1px solid gray;
-    box-shadow: 5px 2px gainsboro;
-    margin: 5px 10px;
-    border-radius:10px;
-    float:left
-}
-
-.infor-person>li{
-    margin: 3px;
-    padding: 5px
+    width:100%;
+    height:500px;
+    border: 1px solid black;
+    background-color: black
 }
 ul{
     line-height: 50px;
@@ -264,20 +219,21 @@ ul{
     border:1px solid gray;
     box-shadow: 5px 2px gainsboro;
     margin: 5px 10px;
-    border-radius:10px 
+    border-radius:10px   
 }
 .box-news-items img{
-    width:170px;
-    height:176px;
-    margin: 5px;
+    width:165px;
+    height:185px;
+    margin: 2px;
     float:left;
     box-shadow: 1px 1px gray;
-    border-radius: 5px;
+    border-radius: 9px;
     
 }
 .new-content{
     width:450px;
     height:190px;
+    
     float:left;
 }
 .title-new{
@@ -286,7 +242,10 @@ ul{
 }
 .text-content{
     text-align: justify;
-    margin: 1px
+    margin: 5px;
+    overflow: hidden;
+    height:140px;
+    
 }
 .title-new a{
     text-decoration: none;
@@ -304,14 +263,26 @@ ul{
     padding: 20px;
     border-radius: 10px;
     border:1px gray solid;
-    box-shadow: 2px 3px gray;
+    box-shadow: 2px 3px yellowgreen;
     height: auto;
+    background-color: yellowgreen
+}
+.rows{
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border:1px gray solid;
+    box-shadow: 2px 3px yellowgreen;
+    height: auto;
+    background-color: yellowgreen
+    
 }
 .form-control{
     width:98%;
     padding:5px; 
     outline:none ;
-    border:1px solid gray; 
+    border:1px solid burlywood; 
     border-radius:3px;
 }
 .form-group lable{
@@ -331,18 +302,11 @@ ul{
      font-weight:bold ;
      background-color:white; 
      color:orangered ;
-     box-shadow:inset 0 0 20px blue 
+     box-shadow:inset 0 0 20px red
 }.form-buttom:hover{
     color: blue;
-    box-shadow: inset 0 0 20px orangered
+    box-shadow: inset 0 0 20px blue
 }
-.form-buttom:disabled{
-    color: gray;
-    box-shadow: 0 0 20px gray
-}
-.texta{
-    float:left;
-    font-size: 28px;
-    margin: 1px
-}
+
+
 
