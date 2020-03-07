@@ -6,106 +6,143 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Trang Ẩm Thực</title>
+        <title>Trang Chủ</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link href="styles(tin tưc).css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>
-            <div class="company-infor">
+        <div id="wrapper">
+            <header>
+                <img src="amthuc12.jpg" width="960"height="328"/>
+                <div class="company-infor">
                     <ul>
-                        
-                        <li><a href="#">ĐĂNG KÝ</a></li>
-                        <li><a href="#">ĐĂNG NHẬP</a></li>
-                        <div class="menu">
-                            <ul>
-                        <li><a href="#">TRANG CHỦ</a></li>
-                        <li><a href="#">MÓN NGON</a></li>
-                        <li><a href="#">VIDEO </a></li>
-                        <li><a href="#">MỚI NHẤT</a></li>
-                        </ul>
-                        </div>                                              
-                   </ul>
-                </div>
-
-            <header>   
-                <img src="backiee-81547.jpg" width="100%"height="515"/>      
-            </header>
-            <nav>
-                <div id="menu">
-                    <ul>
-                        <li><a href="#">QUỐC GIA </a>
-                        <ul class="sub-menu">
-                            <li><a href="#">VIỆT NAM</a></li>
-                            <li><a href="#">THÁI LAN</a></li>
-                            <li><a href="#">LÀO</a></li>
-                        </ul>
-                        </li>
-                        <li><a href="#">MÓN NGON</a>
-                         <ul class="sub-menu">
-                            <li><a href="#">MỚI NHẤT</a></li>
-                            <li><a href="#">TUẦN QUA</a></li>
-                            <li><a href="#">THÁNG QUA</a></li>
-                        </ul>
-                            </li>
-                        <li><a href="#">MÓN NGON </a>
-                        <ul class="sub-menu">
-                            <li><a href="#">MÓN NƯỚNG</a></li>
-                            <li><a href="#">MÓN CHIÊN</a></li>
-                            <li><a href="#">MÓN XÀO</a></li>
-                            <li><a href="#">MÓN HẤP</a></li>
-                            <li><a href="#">MÓN TRÁNG MIỆNG</a></li>
-                        </ul>
-                        </li>
-                        <li><a href="#">ĐỊA ĐIỂM ĂN UỐNG</a>
-                        <ul class="sub-menu">
-                            <li><a href="#">VIỆT NAM</a></li>
-                            <li><a href="#">THÁI LAN</a></li>
-                            <li><a href="#">LÀO</a></li>
-                        </ul>
-                        </li>
+                    <li><a href="#">Đăng nhập</a></li>
+                    <li><a href="#">Đăng ký</a></li>
+                    <li><a href="#">Quên mật khẩu</a></li>
                     </ul>
-                    
                 </div>
+            </header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="trang-chu.html">Trang chủ</a></li>
+                    <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                    <li><a href="tin-tuc.html">Tin tức</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Kinh tế</a></li>
+                            <li><a href="#">Chính trị</a></li>
+                            <li><a href="#">Xã hội</a></li>
+                            <li><a href="#">Thể thao</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="lien-he.html">Liên hệ</a></li>
+                    <li><a href="hoi-dap.html">Hỏi đáp</a></li>
+                </ul>
             </nav>
-            <article>
-                <img src="1.jpg" width="295"height="180"/> 
-                <img src="2.jpg" width="295"height="180"/> 
-                <img src="3.jpg" width="295"height="180"/> 
-                <img src="4.jpg" width="295"height="180"/> 
-                <img src="5.jpg" width="295"height="180"/> 
-                <img src="6.jpg" width="295"height="180"/> 
-                <img src="7.jpg" width="295"height="180"/> 
-                <img src="8.jpg" width="295"height="180"/> 
-                <img src="9.jpg" width="295"height="180"/> 
-                <img src="10.jpeg" width="295"height="180"/> 
-                <img src="11.jpg" width="295"height="180"/> 
-                <img src="12.jpg" width="295"height="180"/> 
-            </article>
-            <aside>
-                <video width="100%" height="50%" controls autoplay>
-                    <source src="Làm bánh mì thập cẩm hấp dẫn như ngoài tiệm.mp4" type="video/mp4">
-                    Your browser does not support the <code>video</code> tag.
-                </video>
-                <video width="100%" height="50%" controls autoplay>
-                    <source src="Tuyệt chiêu làm thịt xá xíu có màu đẹp với bột củ dền.mp4" type="video/mp4">
-                    Your browser does not support the <code>video</code> tag.
-                </video>  
-            </aside>
+
+            <div id="main-content">
+                <article>
+                    <center><h2>ẨM THỰC ĐƯỜNG PHỐ</h2></center>
+                    <div class="col-33">
+                        <div class="product">
+                            <div class="name">Tamogoyaki</div>
+                            <img class="new-icon" src="images/new_icon.png" alt=""/>
+                            <img class="image" src="am1.jpg" alt=""width="100%"/>
+                            <div class="price">100$</div>
+                            <div class="icons">
+                                <img src="images/Heart.png" alt=""/>
+                                <img src="images/Add to basket.png" alt=""/>
+                                <img src="images/Open letter.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="product">
+                            <div class="name">Dorayaki</div>
+                            <img class="new-icon" src="images/new_icon.png" alt=""/>
+                            <img class="image" src="am2.jpg" alt=""width="100%"height="10px"/>
+                            <div class="price">100$</div>
+                            <div class="icons">
+                                <img src="images/Heart.png" alt=""/>
+                                <img src="images/Add to basket.png" alt=""/>
+                                <img src="images/Open letter.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-33">
+                        <div class="product">
+                            <div class="name"> Mitarashi Dango</div>
+                            <img class="new-icon" src="images/new_icon.png" alt=""/>
+                            <img class="image" src="am3.jpg" alt=""width="100%"/>
+                            <div class="price">100$</div>
+                            <div class="icons">
+                                <img src="images/Heart.png" alt=""/>
+                                <img src="images/Add to basket.png" alt=""/>
+                                <img src="images/Open letter.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="product">
+                            <div class="name">Takoyaki</div>
+                            <img class="new-icon" src="images/new_icon.png" alt=""/>
+                            <img class="image" src="am4.jpg" alt=""width="100%"/>
+                            <div class="price">100$</div>
+                            <div class="icons">
+                                <img src="images/Heart.png" alt=""/>
+                                <img src="images/Add to basket.png" alt=""/>
+                                <img src="images/Open letter.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-33">
+                        <div class="product">
+                            <div class="name">Kakigori</div>
+                            <img class="new-icon" src="images/new_icon.png" alt=""/>
+                            <img class="image" src="am5.jpg" alt=""width="100%"/>
+                            <div class="price">100$</div>
+                            <div class="icons">
+                                <img src="images/Heart.png" alt=""/>
+                                <img src="images/Add to basket.png" alt=""/>
+                                <img src="images/Open letter.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="product">
+                            <div class="name">Ikayaki</div>
+                            <img class="new-icon" src="images/new_icon.png" alt=""/>
+                            <img class="image" src="am6.jpg" width="100%"/>
+                            <div class="price">100$</div>
+                            <div class="icons">
+                                <img src="images/Heart.png" alt=""/>
+                                <img src="images/Add to basket.png" alt=""/>
+                                <img src="images/Open letter.png" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                                                            
+                </article>
+                <aside>
+                    <ul class="vmenu">
+                        <li><a href="trang-chu.html">Trang chủ</a></li>
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="tin-tuc.html">Tin tức</a></li>
+                        <li><a href="lien-he.html">Liên hệ</a></li>
+                        <li><a href="hoi-dap.html">Hỏi đáp</a></li>
+                    </ul>
+                </aside>
+                <div style="clear: both"></div>
+            </div>
             <footer>
-                <img src="13.jpg" width="272"height="180"/>
-                <img src="14.jpg" width="272"height="180"/>
-                <img src="15.jpg" width="272"height="180"/>
-                <img src="16.jpg" width="272"height="180"/>
-                <img src="17.jpg" width="272"height="180"/>
-                <img src="18.jpg" width="272"height="180"/>
-                <img src="19.jpg" width="272"height="180"/>
-                <img src="20.jpg" width="272"height="180"/>
-                <img src="22.jpg" width="272"height="180"/>
-                <img src="23.jpg" width="272"height="180"/>
+                <center>TRƯỜNG CAO ĐẲNG THỰC HÀNH FPT POLYTECHNIC 2020</center>
             </footer>
-            
-       </div>
+        </div>
+        <div>
+            <script src="https://uhchat.net/code.php?f=2b8b32"></script>
+        </div>
     </body>
 </html>
